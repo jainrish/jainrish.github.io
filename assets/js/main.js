@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "https://feeds.feedburner.com/TechCrunch/startups",
+        "https://rishabhjainnsit.wordpress.com/feed/",
         
         {
         // how many entries do you want?
@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "jainrish", selector: "#ghfeed" });
 
 
 });
